@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/The-Bulletin-Frontend/static/css/main.91f0b802.css",
+    "main.js": "/The-Bulletin-Frontend/static/js/main.87d343a2.js",
+    "static/js/453.8ab44547.chunk.js": "/The-Bulletin-Frontend/static/js/453.8ab44547.chunk.js",
+    "static/media/home-bg1.png": "/The-Bulletin-Frontend/static/media/home-bg1.d1672a16938b0bbdc2c5.png",
+    "static/media/menu-icon.png": "/The-Bulletin-Frontend/static/media/menu-icon.e63ba1f01e577d754a7c.png",
+    "index.html": "/The-Bulletin-Frontend/index.html",
+    "main.91f0b802.css.map": "/The-Bulletin-Frontend/static/css/main.91f0b802.css.map",
+    "main.87d343a2.js.map": "/The-Bulletin-Frontend/static/js/main.87d343a2.js.map",
+    "453.8ab44547.chunk.js.map": "/The-Bulletin-Frontend/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91f0b802.css",
+    "static/js/main.87d343a2.js"
+  ]
+}
