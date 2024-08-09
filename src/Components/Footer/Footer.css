@@ -1,0 +1,101 @@
+.footer{
+    display: flex;
+    height:400px;
+    width:100%;
+    background: #694F8E;
+    align-items: center;
+    justify-content: center;
+}
+.footer-contents{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+}
+.footer-contents-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-contents-top-heading{
+    font-size: 40px;
+    font-weight: 800;
+    color:white;
+    margin-bottom: 0px;
+}
+.footer-contents-top-subheading{
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 0px;
+}
+.footer-contents-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-contents-bottom-1{
+    display: flex;
+    flex-direction: column;
+}
+.footer-contents-bottom-2{
+    display: flex;
+    flex-direction: column;
+}
+.footer-contents-bottom-1-heading,.footer-contents-bottom-2-heading{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.footer-contents-bottom-2-subheading{
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color:white;
+}
+.social-links img{
+    padding-right:10px;
+}
+.footer-contents-bottom-3-heading{
+    font-size: 25px;
+    color:#fff;
+    font-weight: 800;
+}
+.footer-contents-bottom-3 button{
+    height:60px;
+    width:200px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-contents-bottom-3 button:hover{
+    background:#e4dede;
+}
+@media(max-width:900px){
+    .footer-contents-bottom{
+        margin-top: 30px;
+    }
+    .footer-contents-top-heading{
+        font-size: 30px;
+        font-weight: 800;
+    } 
+    .footer-contents-top-subheading{
+        font-size: 14px;
+    }
+    .footer-contents-bottom-1-heading,.footer-contents-bottom-2-heading{
+        font-size: 13px;
+    }
+    .footer-contents-bottom-3-heading{
+        font-size: 20px;
+
+    }
+    .footer-contents-bottom-3 button{
+        height:50px;
+        width:150px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
